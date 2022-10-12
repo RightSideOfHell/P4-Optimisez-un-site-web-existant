@@ -6,7 +6,27 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.description{
+    font-size: 22px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 30px;
+}
+.comment{
+    font-size: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.comment-cite{
+    font-size: 20px;
+}
+.presentation{
+    font-size: 22px;
+}
+.text-center {
+    font-size: 16px;
 
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -362,7 +382,7 @@ a:hover {
     z-index: 2;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -400,6 +420,9 @@ a:hover {
     .nav-center.mini-nav .navbar-toggle {
         float: none;
         margin: 10px auto 0;
+    }
+    .img-responsive{
+        margin: auto;
     }
 }
 
@@ -753,7 +776,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(107, 84, 46, .6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -818,11 +841,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/bg-hand-phone.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/bg-hand-writting.webp");
 }
 
 @media (max-width: 1024px) {
